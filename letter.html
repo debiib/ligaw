@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Letter for Nimue</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: "Georgia", serif;
+      background: linear-gradient(135deg, #111, #1a1a1a);
+      color: #f0e6e6;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+    }
+    .paper {
+      background: #faf6f6;
+      color: #222;
+      width: 100%;
+      max-width: 600px;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.6);
+    }
+    .rect img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.5);
+    }
+    .rect {
+      height: 150px; /* size of picture */
+      margin-bottom: 20px;
+    }
+    .letter {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #2b2b2b;
+    }
+    .letter h2 {
+      color: #b71c1c;
+      font-family: "Times New Roman", serif;
+      margin-bottom: 15px;
+    }
+    .signature {
+      margin-top: 30px;
+      font-weight: bold;
+      color: #111;
+    }
+
+    /* Responsive for phones */
+    @media (max-width: 600px) {
+      .paper {
+        padding: 20px;
+      }
+      .rect {
+        height: 120px;
+      }
+      .letter {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="paper">
+    <div class="rect">
+      <!-- Replace "yourphoto.jpg" with your actual image file -->
+      <img src="kiss.jpg" alt="Nimue Picture">
+    </div>
+    <div class="letter">
+      <h2>To My Nimue,</h2>
+      <p>
+        Yo, para sa nililigawan ko, 
+        Baka iniisip mo, isa lang itong simpleng liham, pero bawat 
+        salita dito ay laman ng totoo kong nararamdaman.
+    
+    Kung ang puso mo ay parang pintuang matagal nang nakasara,
+hayaan mo akong  kumatok, hindi para pumasok ng saglit,
+kundi para manatili at alagaan ang lahat ng nasa loob. 
+      </p>
+
+       <p>
+    alam kung nagsimula tayo sa isang laro, 
+    pero sa larong yun alam kung ako ako ang talo.
+    pinipilit kong neng ang itawag sayo kahit mahal ang binbigkas ng puso,
+    kahit paggawa ng liham ay di na uso, ito'y paraan ko upang maiparamdam sa iyo na tunay align-items
+    nararamdaman ko para sa iyo.
+    
+      </p>
+      <p class="signature">— Manliligaw, Kox Qour</p>
+    </div>
+  </div>
+</body>
+</html>
